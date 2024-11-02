@@ -53,7 +53,7 @@ function App() {
 
   useEffect(() => {
     fetchData(pageNumber, searchValue);
-  }, [fetchData]);
+  }, [fetchData, pageNumber, searchValue]);
 
   return (
     <Fragment>
